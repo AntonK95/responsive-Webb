@@ -52,31 +52,37 @@ footer {
     margin-top: 0.5rem;
 }
 
+/* My solution */
+
+@media screen and (min-width: 595px){
+    /* I had this as my first solution as I didn't know that ul would be changed at
+    another breakpoint
+    ul {
+        grid-template-columns: repeat(auto-fit, minmax(22%, 1fr));
+    }
+    */
+    section {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    article {
+        flex: 1;
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    ul {
+        grid-template-columns: repeat(auto-fit, minmax(22%, 1fr));
+    }
+}
 
 
 
+/* Teacher's solution*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media screen and (min-width: 850px) {
+/*
+ @media screen and (min-width: 850px) {
     section {
         flex-direction: row;
     }
