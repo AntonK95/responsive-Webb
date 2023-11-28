@@ -89,3 +89,35 @@ footer {
     margin-top: .5rem;
 }
 
+/* My solution */
+
+@media screen and ( min-width: 850px) {
+    figure {
+        align-self: flex-start;
+    }
+}
+
+@media screen and ( min-width: 700px) {
+    ul {
+        display: flex;
+    }
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+    main article {
+        height: 100%;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+}
