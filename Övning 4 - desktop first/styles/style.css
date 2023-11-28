@@ -82,3 +82,28 @@ footer {
     height: 8rem;
     width: 100%;
 }
+
+/* My solution */
+
+@media screen and (max-width: 990px) {
+    figure {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    article:nth-child(3) {
+        background-color: #FD96A9;
+    }
+    article:nth-child(4) {
+        background-color: #B2008A;
+    }
+    button {
+        width: 10rem;
+        border-radius: 3rem;
+    }
+}
