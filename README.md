@@ -1,3 +1,8 @@
+# Responsive Web
+
+In this repository we can see images of a desktop and mobile. 
+We will try to replicate these the best we can. 
+They should also be responsive from desktop down to mobile and from mobile to desktop. 
 
 ## Övning 1
 ![respcamp1](https://user-images.githubusercontent.com/54267140/142991652-6e0dbff4-773b-4386-aa69-2901df974f7b.jpg)
